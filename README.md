@@ -14,47 +14,8 @@ This project implements a modular system for simulating FMCW radar signals, inje
 
 ## Project Structure
 
--AI-Powered-FMCW-Radar-False-Target-Injector/
-├── ai_module/
-│   ├── conf_matrix.png
-│   ├── dataset.py
-│   ├── model.py
-│   ├── noise.py
-│   ├── radar_classifier.h5
-│   ├── train_classifier.py
-│   ├── utils.py
-│   ├── X_noisy_v2.npy
-│   └── y_noisy_v2.npy
-├── api/
-│   ├── docker-compose.yml
-│   ├── Dockerfile
-│   ├── main.py
-│   ├── radar_classifier.h5
-│   └── requirements.txt
-├── best_model.h5
-├── docker-compose.yml
-├── Dockerfile
-├── f.py
-├── logs
-├── main.py
-├── radar_simulator/
-│   ├── __init__.py
-│   ├── false_target_injector.py
-│   ├── generate_radar_pulse.py
-│   ├── inject_false_target.py
-│   ├── plot_utils.py
-│   ├── signal_noise_model.py
-│   ├── simulate_target_return.py
-│   └── utils.py
-├── README.md
-├── requirements copy.txt
-├── requirements.txt
-├── save_dataset.py
-├── test_loader.py
-└── v.py
 
-
-
+<img width="569" height="647" alt="image" src="https://github.com/user-attachments/assets/a0230706-0a9f-46f4-be8f-387cd88a0d3c" />
 
 ---
 
