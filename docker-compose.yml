@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  radar-api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    ports:
+      - "7860:7860"
+    container_name: radar-api
+    restart: unless-stopped

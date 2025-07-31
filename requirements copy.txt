@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+numpy
+tensorflow
+keras
+python-multipart  # needed for UploadFile
