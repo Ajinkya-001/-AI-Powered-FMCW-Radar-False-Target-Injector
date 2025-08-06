@@ -103,6 +103,22 @@ FMCW Chirp: radar_simulator/plot_utils.py
 
 Spoofed vs Real Sample: Use inject_false_target.py and simulate_target_return.py for visualization.
 
+### The following plot shows how false targets are injected into the original FMCW radar echo:
+
+
+<img width="1200" height="500" alt="false_target" src="https://github.com/user-attachments/assets/8b8e37ae-c0a3-433d-af72-fbfbbbca11f9" />
+
+
+- **Blue**: Original radar echo without spoofing.
+- 
+- **Orange**: Echo with artificially injected false targets (spoofed signal).
+- 
+- Notice the phase distortion and interference patterns introduced by spoofing attempts.
+
+These signal differences form the basis for training the AI classifier to detect spoofing attacks.
+
+
+
 ## Model Evaluation
 
 ### Confusion Matrix
@@ -143,6 +159,7 @@ Ajinkya Patil
 GitHub:[https://github.com/Ajinkya-001](https://github.com/Ajinkya-001)
 
 Email:ajinkyapatilckl@gmail.com
+
 
 
 
