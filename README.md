@@ -40,7 +40,6 @@ This project implements a modular system for simulating FMCW radar signals, inje
 ### Using Docker (Recommended)
 
 ```bash
-cd api/
 docker compose up --build
 ```
 
@@ -159,6 +158,7 @@ Ajinkya Patil
 GitHub:[https://github.com/Ajinkya-001](https://github.com/Ajinkya-001)
 
 Email:ajinkyapatilckl@gmail.com
+
 
 
 
