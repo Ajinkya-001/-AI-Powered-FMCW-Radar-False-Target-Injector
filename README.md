@@ -103,6 +103,29 @@ FMCW Chirp: radar_simulator/plot_utils.py
 
 Spoofed vs Real Sample: Use inject_false_target.py and simulate_target_return.py for visualization.
 
+## Model Evaluation
+
+### Confusion Matrix
+
+
+<img width="500" height="400" alt="conf_matrix" src="https://github.com/user-attachments/assets/29adfa5a-517f-4fb9-8ee9-89e2e842b910" />
+
+Classifiction Report
+
+| Metric    | Class 0 (Real) | Class 1 (Spoofed) | Overall |
+| --------- | -------------- | ----------------- | ------- |
+| Precision | 0.97           | 0.97              | 0.97    |
+| Recall    | 0.97           | 0.97              | 0.97    |
+| F1-Score  | 0.97           | 0.97              | 0.97    |
+| Accuracy  | –              | –                 | **97%** |
+
+The model achieves 97% accuracy in distinguishing real vs spoofed radar signals, demonstrating
+
+strong generalization on synthetic test data.
+
+
+
+
 
 ## Disclaimer
 This repository is strictly for academic, ethical, and defensive research purposes.
@@ -120,6 +143,7 @@ Ajinkya Patil
 GitHub:[https://github.com/Ajinkya-001](https://github.com/Ajinkya-001)
 
 Email:ajinkyapatilckl@gmail.com
+
 
 
 
